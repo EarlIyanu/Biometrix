@@ -297,7 +297,7 @@ public class MainForm extends JFrame {
 	public void saveIntoDB(byte[] dbt, String pincode) throws ClassNotFoundException, SQLException {
 		System.out.println(pincode + "1111111111111111");
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://www.wgh4.whoghost.com:3306/ministr7_db", "ministr7_user", "C0xFingerPrintDB1234");
+		Connection con = DriverManager.getConnection("jdbc:mysql://www.wgh4.whoghost.com:3306/db", "user", "password");
 
 		try {
 
